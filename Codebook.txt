@@ -1,0 +1,123 @@
+CODEBOOK
+Getting and Cleaning Data Course Project
+
+ 
+1. tidy_data_with averages
+
+	Activity 		(1.WALKING
+ 2.WALKING_UPSTAIRS 
+3.WALKING_DOWNSTAIRS 
+4.SITTING
+ 5.STANDING 
+6.LAYING
+)
+	subjects 		(Individuals participating in the training and test group. Value range from 1 to 30)
+
+	
+"tBodyAccMeanX" ( mean of time domain linear accelerometer x-axis raw signals)
+"tBodyAccMeanY" ( mean of time domain linear accelerometer y-axis raw signals)
+"tBodyAccMeanZ" ( mean of time domain linear accelerometer z-axis raw signals)
+"tBodyAccStdX"  ( standard devaition of time domain accelerometer x-axis raw signals)
+"tBodyAccStdY"  ( standard devaition of time domain accelerometer y-axis raw signals)
+"tBodyAccStdZ"   ( standard devaition of time domain accelerometer z-axis raw signals)
+
+
+	(The followings 6 variables are mean and standard devaitions of time domain linear acceleration of device 3-axial raw signals)
+
+"tGravityAccMeanX"
+"tGravityAccMeanY"
+"tGravityAccMeanZ" 
+"tGravityAccStdX" 
+"tGravityAccStdY" 
+"tGravityAccStdZ" 
+
+
+	(The followings 6 variables are mean and standard devaitions of time domain acceleration of device due to body jerk 3-axial raw signals)
+
+"tBodyAccJerkMeanX" 
+"tBodyAccJerkMeanY" 
+"tBodyAccJerkMeanZ" 
+"tBodyAccJerkStdX" 
+"tBodyAccJerkStdY" 
+"tBodyAccJerkStdZ" 
+
+	(The followings 6 variables are mean and standard devaitions of time domain body angular velocity vector measured by the gyroscope of the device)
+
+"tBodyGyroMeanX" 
+"tBodyGyroMeanY" 
+"tBodyGyroMeanZ" 
+"tBodyGyroStdX" 
+"tBodyGyroStdY" 
+"tBodyGyroStdZ"
+
+	(The followings 6 variables are mean and standard devaitions of time domain body jerk signals derived from the linear acceleration and angular velocity)
+
+"tBodyGyroJerkMeanX" 
+"tBodyGyroJerkMeanY" 
+"tBodyGyroJerkMeanZ" 
+"tBodyGyroJerkStdX" 
+"tBodyGyroJerkStdY" 
+"tBodyGyroJerkStdZ" 
+
+	(magnitude)
+
+	"tBodyAccMagMean" 
+	"tBodyAccMagStd"
+
+	"tGravityAccMagMean" 
+	"tGravityAccMagStd" 
+
+	"tBodyAccJerkMagMean" 
+	"tBodyAccJerkMagStd" 
+
+	"tBodyGyroMagMean" 
+	"tBodyGyroMagStd" 
+
+	"tBodyGyroJerkMagMean" 
+	"tBodyGyroJerkMagStd"
+
+	(The mean and standard devaitions of frequency domain linear acceleration of device 3-axial raw signals)
+
+	"fBodyAccMeanX" 
+	"fBodyAccMeanY" 	
+	"fBodyAccMeanZ" 
+	"fBodyAccStdX" 
+	"fBodyAccStdY" 
+	"fBodyAccStdZ"
+
+	(The followings 6 variables are mean and standard devaitions of frequency domain acceleration of device due to body jerk 3-axial raw signals)
+
+	"fBodyAccJerkMeanX" 
+	"fBodyAccJerkMeanY" 
+	"fBodyAccJerkMeanZ" 
+	"fBodyAccJerkStdX" 
+	"fBodyAccJerkStdY" 
+	"fBodyAccJerkStdZ"
+
+	(The followings 6 variables are mean and standard devaitions of frequency domain body angular velocity vector measured by the gyroscope of the device)
+
+	"fBodyGyroMeanX" 
+	"fBodyGyroMeanY" 
+	"fBodyGyroMeanZ" 
+	"fBodyGyroStdX" 
+	"fBodyGyroStdY" 
+	"fBodyGyroStdZ
+
+	(Magnitude)
+
+	
+	"fBodyAccMagMean" 
+	"fBodyAccMagStd" 
+
+	"fBodyBodyAccJerkMagMean" 
+	"fBodyBodyAccJerkMagStd" 
+
+	"fBodyBodyGyroMagMean" 
+	"fBodyBodyGyroMagStd" 
+	
+	"fBodyBodyGyroJerkMagMean" 
+	"fBodyBodyGyroJerkMagStd"
+
+	
+2. tidy_data_with_averages
+	this data frame contains the computed mean values of the above variables for each subject and activity
